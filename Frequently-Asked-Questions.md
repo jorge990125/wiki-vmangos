@@ -18,9 +18,13 @@ Make sure you are not missing the maps and vmaps required to run the server. If 
 
 Open the "mangosd.conf" file with notepad and change the _LogLevel_ setting to 0.
 
-### How do i change the patch?
+### How do i change the content patch?
 
 Open the "mangosd.conf" file with notepad and change the _WowPatch_ setting.
+
+### How do i play with a different client build like 1.10?
+
+In order to change the targeted client build, you must edit the value of the SUPPORTED_CLIENT_BUILD define in Common.h before compiling the core.
 
 ### I get stuck when trying to connect to my server.
 
@@ -33,7 +37,3 @@ This happens because the gate opening event has not been completed on your serve
 ### I am trying to start a game event, but it is disabled.
 
 You need to use _.event enable_ before _.event start_ when the event is disabled in the database. Alternatively you can just remove the disabled flag from the event in the `game_event` table.
-
-### How do i play with a different client build like 1.10?
-
-In order to change targeted client build, you must edit the value of the SUPPORTED_CLIENT_BUILD define in Common.h before compiling the core.
