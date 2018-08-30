@@ -77,7 +77,7 @@ This command will show you a list of files that have been changed. In order to i
 
 Adding --all will include all changed files in your commit, including any new files. If you don't want to include all changed files, only specific ones, then instead of "--all" type the name and path to the file. You can verify that it has been included by typing "git status" again, where the included files should appear in green.
 
-- `git commit -m "_short name describing the changes_"`
+- `git commit -m "short name describing the changes"`
 
 This creates a new commit with the name specified and all the files you chose to include. It does not upload the commit to github, to do that use the command below.
 
