@@ -51,7 +51,7 @@ This will make a local copy of the code which you can use to compile the server,
 
 ## 5. Configuring the project with CMake
 
-Once you have downloaded the source code, make a new folder named "build" next to the "server" folder. Now open CMake and paste the path to those folders at the top. Click on Configure and choose which version of Visual Studio you will be using. If you want to compile for x64 then select the Win64 version. You will see a bunch of settings show up. The only ones you need to worry about are "CMAKE_INSTALL_PREFIX" and "PREFIX". This is the directory in which the binary files will be copied once you build the project. After you've changed them to whatever you want, click on Configure again and finally on Generate.
+Once you have downloaded the source code, make a new folder named "build" next to the "core" folder. Now open CMake and paste the path to those folders at the top. Click on Configure and choose which version of Visual Studio you will be using. If you want to compile for x64 then select the Win64 version. You will see a bunch of settings show up. The only ones you need to worry about are "CMAKE_INSTALL_PREFIX" and "PREFIX". This is the directory in which the binary files will be copied once you build the project. After you've changed them to whatever you want, click on Configure again and finally on Generate.
 
 ![](https://i.imgur.com/PNP5bYT.gif)
 
