@@ -29,8 +29,29 @@ export TBB_ROOT_DIR=/usr/include/tbb
 
 ## 3. Installing ACE
 
-The ACE library is used for Networking, Threading and File System access.
+The ACE library is essential, since it's used for Networking, Threading and File System access.
 ```
 sudo apt-get install -qq libace-dev
 export ACE_ROOT=/usr/include/ace
+```
+
+## 4. Installing Git
+
+To download the source code for VMaNGOS, you should install Git. This can be avoided if you choose to manually download the zip archive from the website, but it's better to use Git, as it makes pulling updates from the main repository much easier.
+```
+sudo apt install git
+```
+
+## 5. Installing CMake
+
+Since this is a cross-platform project, we use CMake to generate the appropriate solution files for every environment.
+```
+sudo apt install cmake
+```
+
+## 6. Installing MySQL Connector/C
+
+Account, character and game data is stored inside the database, so we need the MySQL connector library to read and write data to it.
+```
+sudo apt-get install libmysqlclient-dev
 ```
