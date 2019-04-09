@@ -1,4 +1,4 @@
-# Welcome to the vMaNGOS developer wiki!
+# Welcome to the VMaNGOS developer wiki!
 
 These pages are aimed at helping contributors with setting up the server environment correctly, and also to provide documentation for the different features so you don't have to get down to the code itself in order to figure out how things work.
 
