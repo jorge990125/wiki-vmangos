@@ -32,7 +32,7 @@ Once you've extracted everything, move the "dbc", "maps", "vmaps" and "mmaps" fo
 
 ## 3. Setting up the database
 
-The server requires a MySQL database from which to read and save all account, character and world data. Either download the official [MySQL Installer](https://dev.mysql.com/downloads/installer/) or use something like XAMPP which provides a ready to use package of both MySQL and Apache. The recommended versions are either [MySQL 5.6.38](https://dev.mysql.com/downloads/file/?id=473307) or [XAMPP 5.6.12](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.12/).
+The server requires a MySQL database from which to read and save all account, character and world data. Either download the official [MySQL Installer](https://dev.mysql.com/downloads/mysql/5.5.html) or use something like [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.12/) which provides a ready to use package of both MySQL and Apache. The recommended versions are either 5.5 or 5.6. Version 5.7 can also work, but some users have reported issues with it.
 
 Once you've installed a MySQL server and created a user with full permissions which the emulator can use, you need to setup the following databases:
 
