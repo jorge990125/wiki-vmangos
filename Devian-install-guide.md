@@ -184,7 +184,7 @@ rm structure.sql
 ```
 7z x vmangos/db/world_full_08_february_2019.7z
 mysql -u mangos -pmangos --database=mangos < world_full_08_february_2019.sql
-rm world_full_26_august_2018.sql
+rm world_full_08_february_2019.sql
 mysql -u mangos -pmangos --database=characters < vmangos/core/sql/characters.sql
 mysql -u mangos -pmangos --database=logs < vmangos/core/sql/logs.sql
 mysql -u mangos -pmangos --database=realmd < vmangos/core/sql/logon.sql
