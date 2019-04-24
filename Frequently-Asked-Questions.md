@@ -24,7 +24,7 @@ Open the "mangosd.conf" file with notepad and change the _WowPatch_ setting.
 
 ### How do i play with a different client build like 1.10?
 
-In order to change the targeted client build, you must edit the value of the _SUPPORTED_CLIENT_BUILD_ define in _Common.h_ before compiling the core.
+In order to change the targeted client build, you must edit the value of the _SUPPORTED_CLIENT_BUILD_ define in _Progression.h_ before compiling the core.
 
 ### I get stuck when trying to connect to my server.
 
