@@ -14,7 +14,7 @@ Name of the battleground. This field is just for clarity, it is not used by the 
 
 ### 3. team - mediumint(8) unsigned
 
-Team that can use this entrance.
+Player team faction that can use this entrance.
 ```
 67 - Horde
 469 - Alliance
