@@ -18,15 +18,15 @@ Map id from the `map_template` table on which the trigger is located.
 
 ### 4. x - float
 
-Global map coordinate of the exact center of trigger.
+Global map coordinate of the exact center of the trigger.
 
 ### 5. y - float
 
-Global map coordinate of the exact center of trigger.
+Global map coordinate of the exact center of the trigger.
 
 ### 6. z - float
 
-Global map coordinate of the exact center of trigger.
+Global map coordinate of the exact center of the trigger.
 
 ### 7. radius - float
 
