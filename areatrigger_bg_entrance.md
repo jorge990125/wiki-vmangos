@@ -29,7 +29,7 @@ Battleground id from the `battleground_template` table.
 3 - Arathi Basin
 ```
 
-### 5. exit_map - mediumint(8) unsigned
+### 5. exit_map - smallint(5) unsigned
 
 Map id from the `map_template` table. This is where players will get teleported once they leave the battleground.
 
