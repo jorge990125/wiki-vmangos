@@ -55,8 +55,8 @@ Delay in milliseconds before showing the first emote. This is a sniffed value fo
 
 ### 11. EmoteDelay1 - mediumint(8) unsigned
 
-Delay in milliseconds before showing the first emote. This is a sniffed value for gossip texts used in the `npc_text` table.
+Delay in milliseconds before showing the second emote. This is a sniffed value for gossip texts used in the `npc_text` table.
 
 ### 12. EmoteDelay2 - mediumint(8) unsigned
 
-Delay in milliseconds before showing the first emote. This is a sniffed value for gossip texts used in the `npc_text` table.
+Delay in milliseconds before showing the third emote. This is a sniffed value for gossip texts used in the `npc_text` table.
