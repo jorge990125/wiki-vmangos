@@ -12,3 +12,9 @@ These pages are aimed at helping contributors with setting up the server environ
 * [Compiling on Ubuntu](https://github.com/vmangos/wiki/wiki/Compiling-on-Ubuntu)
 * [Getting it working](https://github.com/vmangos/wiki/wiki/Getting-it-working)
 * [Contribution guide](https://github.com/vmangos/wiki/wiki/Contribution-guide)
+
+
+### Database tables:
+* Account Database
+* Character Database
+* [World Database](https://github.com/vmangos/wiki/wiki/World-Database)
