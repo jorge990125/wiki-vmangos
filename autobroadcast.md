@@ -8,7 +8,7 @@ Used to define messages that sent to all players periodically.
 
 Delay in seconds between announcements.
 
-### 2. string_id- int(11)
+### 2. string_id - int(11)
 
 Text id from the `mangos_string` table. This is the message that gets sent.
 
