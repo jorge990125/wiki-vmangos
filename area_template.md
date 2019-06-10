@@ -50,7 +50,7 @@ Name of the area.
 4 - Horde
 ```
 
-### 9. liquid_type tinyint(3) unsigned
+### 9. liquid_type - tinyint(3) unsigned
 
 Liquid id from LiquidType.dbc.
 ```
