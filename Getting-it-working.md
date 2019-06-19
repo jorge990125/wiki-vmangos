@@ -30,6 +30,8 @@ This will generate movement maps, so that creatures can navigate all the map geo
 
 Once you've extracted everything, move the "dbc", "maps", "vmaps" and "mmaps" folders over to your server directory. The "Buildings" folder is not needed and can be deleted safely.
 
+Note that the dbc path must also include the build number of the client from which the files were extracted. If you are unsure what is the exact build, you can see it in the lower left corner of the login screen. The build number of the 1.12.1 client is 5875.
+
 ## 3. Setting up the database
 
 The server requires a MySQL database from which to read and save all account, character and world data. Either download the official [MySQL Installer](https://dev.mysql.com/downloads/mysql/5.5.html) or use something like [XAMPP](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/5.6.12/) which provides a ready to use package of both MySQL and Apache. The recommended versions are either 5.5 or 5.6. Version 5.7 can also work, but some users have reported issues with it.
