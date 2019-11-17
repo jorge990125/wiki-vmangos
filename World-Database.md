@@ -15,3 +15,4 @@ The world database is mostly static and contains definitions for all game conten
 - [battlemaster_entry](https://github.com/vmangos/wiki/wiki/battlemaster_entry)
 - [broadcast_text](https://github.com/vmangos/wiki/wiki/broadcast_text)
 - [cinematic_waypoints](https://github.com/vmangos/wiki/wiki/cinematic_waypoints)
+- [command](https://github.com/vmangos/wiki/wiki/command)
