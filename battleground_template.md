@@ -53,14 +53,6 @@ Spell id from the `spell_template` table that will be cast on Horde players if t
 
 Id from WorldSafeLocs.dbc that defines where Alliance players spawn when joining the battleground.
 
-### 12. alliance_start_o - float
-
-The orientation that Alliance players will have when joining the battleground
-
-### 13. horde_start_location - mediumint(8) unsigned
+### 12. horde_start_location - mediumint(8) unsigned
 
 Id from WorldSafeLocs.dbc that defines where Horde players spawn when joining the battleground.
-
-### 14. horde_start_o - float
-
-The orientation that Horde players will have when joining the battleground
