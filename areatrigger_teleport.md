@@ -26,7 +26,7 @@ Minimum level required to use the trigger.
 
 ### 6. required_condition - mediumint(8) unsigned
 
-Item id from the `conditions` table. This condition must be met to use the trigger.
+Id from the `conditions` table. This condition must be met to use the trigger.
 
 ### 7. target_map - smallint(5) unsigned
 
