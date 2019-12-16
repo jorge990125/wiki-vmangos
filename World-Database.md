@@ -16,3 +16,4 @@ The world database is mostly static and contains definitions for all game conten
 - [broadcast_text](https://github.com/vmangos/wiki/wiki/broadcast_text)
 - [cinematic_waypoints](https://github.com/vmangos/wiki/wiki/cinematic_waypoints)
 - [command](https://github.com/vmangos/wiki/wiki/command)
+- [conditions](https://github.com/vmangos/wiki/wiki/conditions)
