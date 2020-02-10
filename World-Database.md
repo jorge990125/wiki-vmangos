@@ -17,3 +17,4 @@ The world database is mostly static and contains definitions for all game conten
 - [cinematic_waypoints](https://github.com/vmangos/wiki/wiki/cinematic_waypoints)
 - [command](https://github.com/vmangos/wiki/wiki/command)
 - [conditions](https://github.com/vmangos/wiki/wiki/conditions)
+- [creature](https://github.com/vmangos/wiki/wiki/creature)
