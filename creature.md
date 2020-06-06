@@ -20,7 +20,7 @@ Map id from the `map_template` table (Map.dbc in client).
 
 Creature display id from CreatureDisplayInfo.dbc in client. This value overrides the display id from the `creature_template` if its set.
 
-### 8. display_id - mediumint(8) unsigned
+### 8. equipment_id - mediumint(8) unsigned
 
 Creature equipment id from the `creature_equip_template` table. This value overrides the equipment id from the `creature_template` if its set.
 
