@@ -9,7 +9,7 @@ Before you jump into it, you need to have the above programs already installed.
 
 ### Required dependencies:
 - [ACE](http://download.dre.vanderbilt.edu/)
-- [TBB](https://www.threadingbuildingblocks.org/download)
+- [TBB](https://github.com/oneapi-src/oneTBB/releases/tag/2017_U3)
 
 There are also several required libraries on which the project depends. Go ahead and download the latest versions of those as well.
 
