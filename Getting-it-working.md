@@ -60,7 +60,7 @@ Once you are done with that, you'll need to define your realms in the database. 
 
 ## 4. Editing the config files.
 
-The final step in getting your server running is to make sure everything is correct in the configuration files. There is one for the world server _(mangosd.conf)_, and one for the login server _(realmd.conf)_. Those are simple text files that you can edit in notepad. There are plenty of setting you can change in there, and there is usually a short documentation for each one, but the most important thing you have to check in order to get things running is the MySQL connection string.
+The final step in getting your server running is to make sure everything is correct in the configuration files. There is one for the world server _(mangosd.conf)_, and one for the login server _(realmd.conf)_. Those are simple text files that you can edit in notepad. There are plenty of settings you can change in there, and there is usually a short documentation for each one, but the most important thing you have to check in order to get things running is the MySQL connection string.
 
 It looks like this:
 > LoginDatabase.Info              = "127.0.0.1;3306;root;root;realmd"
