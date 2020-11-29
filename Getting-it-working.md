@@ -8,7 +8,7 @@ Now you need to do the same for TBB. Since we didn't need to build TBB ourselves
 
 ## 2. Extracting data from the client
 
-The server requires a large amount of data from the client in order to operate. That includes DBC, Map, VMap and MMap files. To extract all that data you need extractors. You can either compile them yourself by selecting the _USE_EXTRACTORS_ option when configuring in CMake, or you can just download the [precompiled extractor files](https://github.com/brotalnia/database/blob/master/other/extractors-windows.zip) on Windows.
+The server requires a large amount of data from the client in order to operate. That includes DBC, Map, VMap and MMap files. To extract all that data you need extractors. You can compile them yourself by selecting the _USE_EXTRACTORS_ option when configuring in CMake. Alternatively you can download all the required files from the internet.
 
 Now that you have the extractors, place them together with the dependency dlls into your World of Warcraft 1.12.1 game folder. There is a separate extractor for everything. You must run them in the following older, and wait for each one to complete before starting the next extractor.
 
