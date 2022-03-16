@@ -144,15 +144,17 @@ Returns true if the player has an argent dawn commission aura.
 
 Requirement: Player Target
 
-### 11: "CONDITION_WAR_EFFORT_STAGE
+### 11: CONDITION_SAVED_VARIABLE
 
-Checks the current state of the War Effect event.
+Checks a global saved variable.
 
 Requirement: None
 
-Value1: stage
+Value1: index
 
-Value2: 0 : ==, 1: >= 2 <=
+Value2: data
+
+Value3: 0, 1 or 2 (0: equal to, 1: equal or higher than, 2: equal or less than)
 
 ### 12: CONDITION_ACTIVE_GAME_EVENT
 
