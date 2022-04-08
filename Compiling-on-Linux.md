@@ -67,7 +67,7 @@ sudo apt install git
 ```
 ### Arch
 ```
-sudo apt install git
+sudo pacman -S git
 ```
 
 ## 5. Installing CMake
