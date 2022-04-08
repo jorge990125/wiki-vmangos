@@ -1,43 +1,71 @@
-This page will guide you through all the required steps to compile the server core on Ubuntu. Compiling VMaNGOS on Linux is much easier than doing it on Windows, since you can install all dependencies through the terminal.
+This page will guide you through all the required steps to compile the server core on Ubuntu or Arch. Compiling VMaNGOS on Linux is much easier than doing it on Windows, since you can install all dependencies through the terminal.
 
 ### Required software:
-- G++ Compiler
+- g++ Compiler
 - CMake
 - Git
 
 ### Required dependencies:
 - ACE
 - TBB
-- MySQL Connector/C
+- MySQL Connector/C or MariaDB
 - OpenSSL
 - Zlib
 
-## 1. Installing G++
+## 1. Installing g++
 
 First we need to install the compiler.
+
+### Ubuntu
 ```
 sudo apt install g++
+```
+### Arch
+```
+sudo pacman -S gcc
 ```
 
 ## 2. Installing ACE
 
 The ACE library is essential, since it's used for Networking, Threading and File System access.
+
+### Ubuntu
 ```
-sudo apt-get install -qq libace-dev
+sudo apt install -qq libace-dev
 export ACE_ROOT=/usr/include/ace
+```
+### Arch
+On Arch we have to use AUR
+```
+mkdir libace && cd libace
+curl -L -O https://aur.archlinux.org/cgit/aur.git/snapshot/ace.tar.gz
+makepkg -si
+cd .. && rm -rf libace
 ```
 
 ## 3. Installing TBB
 
 The TBB library is used to provide better performance and scalability for memory allocation/deallocation operations in multithreaded applications, compared to the default allocator. This dependency is optional and can be skipped if you specify the USE_STD_MALLOC option when configuring with CMake.
+
+### Ubuntu
 ```
-sudo apt-get install -y libtbb-dev
+sudo apt install -y libtbb-dev
+export TBB_ROOT_DIR=/usr/include/tbb
+```
+### Arch
+```
+sudo pacman -S tbb
 export TBB_ROOT_DIR=/usr/include/tbb
 ```
 
 ## 4. Installing Git
 
 To download the source code for VMaNGOS, you should install Git. This can be avoided if you choose to manually download the zip archive from the website, but it's better to use Git, as it makes pulling updates from the main repository much easier.
+### Ubuntu
+```
+sudo apt install git
+```
+### Arch
 ```
 sudo apt install git
 ```
@@ -45,30 +73,49 @@ sudo apt install git
 ## 5. Installing CMake
 
 Since this is a cross-platform project, we use CMake to generate the appropriate solution files for every environment.
+### Ubuntu
 ```
 sudo apt install cmake
 ```
+### Arch
+```
+sudo pacman -S cmake
+```
 
-## 6. Installing MySQL Connector/C
+## 6 Installing MySQL Connector/C 
 
 Account, character and game data is stored inside the database, so we need the MySQL connector library to read and write data to it.
+### Ubuntu
 ```
 sudo apt-get install libmysqlclient-dev
+```
+### Arch
+On Arch good option is to use MariaDB instead of libmysqlclient since it is available in official repositories.
+```
+sudo pacman -S mariadb
 ```
 
 ## 7. Installing OpenSSL
 
 Communication between the game client and server needs to be encrypted, which requires a cryptography library.
+### Ubuntu
 ```
 sudo apt-get install openssl
 sudo apt-get install libssl-dev
 ```
+### Arch
+OpenSSL is provided as part of coreutils and there is no need to install it.
 
 ## 8. Installing Zlib
 
 In order to reduce network traffic, a number of packets sent from the server are compressed, so we need a library for that too.
+### Ubuntu
 ```
 sudo apt install build-essential checkinstall zlib1g-dev -y
+```
+### Arch
+```
+sudo pacman -S zlib
 ```
 
 ## 9. Downloading the source code
