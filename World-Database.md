@@ -18,3 +18,4 @@ The world database is mostly static and contains definitions for all game conten
 - [command](https://github.com/vmangos/wiki/wiki/command)
 - [conditions](https://github.com/vmangos/wiki/wiki/conditions)
 - [creature](https://github.com/vmangos/wiki/wiki/creature)
+- [crature_addon](https://github.com/vmangos/wiki/wiki/creature_addon)
