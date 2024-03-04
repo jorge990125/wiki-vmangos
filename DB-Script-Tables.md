@@ -14,7 +14,7 @@ A delay in seconds after which this action will be executed.
 
 ### 3. priority - tinyint(3) unsigned
 
-This field defines the order in which actions with the same delay will be executed.
+This field defines the order in which actions with the same delay will be executed. Lower values take precedence.
 
 ### 4. command - tinyint(3) unsigned
 
