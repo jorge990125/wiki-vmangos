@@ -52,7 +52,9 @@ This is a script id from the creature_ai_scripts table. Make sure you apply the 
 This is a comment describing the event and the actions it triggers.
 
 The convention is to use this format:
+
 _Creature Name - Action Type on Event Type_
 
 Example:
+
 _Fire Elemental - Cast Spell Explosion on Death_
