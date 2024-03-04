@@ -1,6 +1,6 @@
 # The areatrigger_template table
 
-Defines the location and size of all areatriggers.
+Defines the location and size of all areatriggers. This is an invisible box which causes something to happen once the player enters its confines. They are triggered by the client, the server only verifies the player's position, so if you want to add new areatriggers you must edit AreaTrigger.dbc in the client. Be aware that rows must be ordered by the map id in the dbc file. If you create a custom map id with no areatriggers, going there will cause all areatriggers to break client side until you restart the game. This will lead to things like instance portals or the rest area in taverns to stop working.
 
 ## Structure
 
