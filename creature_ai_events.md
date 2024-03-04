@@ -27,8 +27,11 @@ This is a mask defining in which phases the event will NOT trigger. You raise 2 
 Example:
 
 Value 1 (2 to the power of 0) - event wont trigger in phase 0
+
 Value 2 (2 to the power of 1) - event wont trigger in phase 1
+
 Value 3 (2 to the power of 0 + 2 to the power of 1) - event wont trigger in phases 0 and 1
+
 Value 4 (2 to the power of 2) - event wont trigger in phase 2
 
 ### 6. event_chance - int(3) unsigned
