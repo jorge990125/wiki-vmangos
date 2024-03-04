@@ -19,3 +19,5 @@ The world database is mostly static and contains definitions for all game conten
 - [conditions](https://github.com/vmangos/wiki/wiki/conditions)
 - [creature](https://github.com/vmangos/wiki/wiki/creature)
 - [creature_addon](https://github.com/vmangos/wiki/wiki/creature_addon)
+- [creature_ai_events](https://github.com/vmangos/wiki/wiki/creature_ai_events)
+
