@@ -6,7 +6,7 @@ Defines events that will trigger a script for creatures using EventAI. This is a
 
 ### 1. id - int(11) unsigned, primary key
 
-An unique id for the AI event. The convention is to multiply the creature id by 100 and then increment by 1 for each new event used by creature.
+An unique id for the AI event. The convention is to multiply the creature id by 100 and then increment by 1 for each new event used by the creature.
 
 ### 2. creature_id - int(11) unsigned
 
